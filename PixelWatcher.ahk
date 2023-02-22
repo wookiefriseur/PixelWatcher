@@ -10,7 +10,7 @@ TimerOff := 0    ; 0ms delay = disable timer
 TrayTipNoSound := 16    ; option value to disable notification sound
 
 ; set coordinate system to screen, with x=0,y=0 being the top left corner
-CoordMode "Pixel", "Screen"
+CoordMode "Pixel", "Client"
 ; use AHK Window Spy to get desired coordinates
 X := 1    ; leftmost pixel
 Y := 1    ; topmost pixel
